@@ -1,0 +1,284 @@
+[
+  {
+    "_id": "8d939329-bf6e-4f96-96aa-b01e0b59b5cc",
+    "author": [
+      {
+        "_key": "2c0d16c6e84efbcd8118d43e73e0b69e",
+        "instagram": "karyasite",
+        "name": "Mahendra Arya",
+        "role": "Web Developer"
+      },
+      {
+        "_key": "1e406c907fdc",
+        "_type": "collaborator",
+        "instagram": "ryanproductions_",
+        "name": "Ryan Permana",
+        "role": "UI Designer & Web Developer"
+      }
+    ],
+    "category": "Website",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "Taksu Explore is a modern travel and booking platform designed to help travel businesses build a stronger online presence and attract more customers through a seamless digital experience. The platform allows visitors to explore and book tour packages, vehicle rentals, and airport transfers with ease, while also featuring a blog, gallery, and testimonial system to showcase services and build customer trust. Built with a clean and user-friendly interface, Taksu Explore helps travel businesses streamline their operations, improve credibility, and provide a more professional booking experience for their customers.",
+    "slug": {
+      "_type": "slug",
+      "current": "taksu-explore-tour-and-travel-booking"
+    },
+    "tags": [
+      "Travel Website",
+      "Tour Booking Platform",
+      "Travel Agency Website",
+      "Transportation Booking",
+      "Online Reservation System"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/89400f8b2cbce856effc07b8414055a6e0de9079-1080x1350.png",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/eff8e4bc8ba379a53dc14684b4c83615fe22e0e5-1080x1350.png",
+    "title": "Taksu Explore - Tour & Travel Booking",
+    "uploadedAt": "2026-05-24"
+  },
+  {
+    "_id": "f64b4e92-6563-435b-ad81-f3f55c5d7a98",
+    "author": [
+      {
+        "_key": "6c45be5ad3b9b164c2a129d19b1e2c47",
+        "instagram": "karyasite",
+        "name": "Mahendra Arya",
+        "role": "System Developer"
+      }
+    ],
+    "category": "Dashboard System",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "The Taksu Explore Admin Panel is a comprehensive management system built to simplify and streamline travel business operations in one centralized platform. It enables administrators to manage tour packages, transportation services, bookings, schedules, and agent coordination efficiently, while also providing tools to maintain website content such as blogs, galleries, and testimonials. Designed with a clean and organized workflow, the admin panel helps travel businesses handle daily operations more effectively, improve team coordination, and deliver a smoother experience for both staff and customers.",
+    "slug": {
+      "_type": "slug",
+      "current": "taksu-explore-travel-operational-system"
+    },
+    "tags": [
+      "Travel Management System",
+      "Booking Management",
+      "Schedule Management",
+      "Agent Management",
+      "Tour Package Management",
+      "Transportation Management",
+      "Content Management System",
+      "Business Operations"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/0e8e6cdc7b0e48edabaa96d3057bff7d9dc83722-1080x1350.png",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/a1cf6243ae9b2c0753060a89265ff9043e36892d-1080x1350.png",
+    "title": "Taksu Explore - Travel Operational System",
+    "uploadedAt": "2026-05-24"
+  },
+  {
+    "_id": "8a8bc3f0-3a99-467a-a6ce-63d1f06ab15f",
+    "author": [
+      {
+        "_key": "3073bae31dda",
+        "_type": "collaborator",
+        "instagram": "karyasite",
+        "name": "Mahendra Arya",
+        "role": "UI Designer"
+      },
+      {
+        "_key": "08b66d0f3611",
+        "_type": "collaborator",
+        "instagram": "ryanproductions_",
+        "name": "Ryan Permana ",
+        "role": "Frontend Developer"
+      },
+      {
+        "_key": "fa398765c0fc",
+        "_type": "collaborator",
+        "instagram": "werdhika_",
+        "name": "Werdhika ",
+        "role": "UI Designer"
+      },
+      {
+        "_key": "606d9a8b8b77",
+        "_type": "collaborator",
+        "instagram": "valifer_vallen",
+        "name": "Vincentius",
+        "role": "Frontend Developer"
+      }
+    ],
+    "category": "Website",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "A dynamic multi-sport platform designed to connect athletes, simplify sports activities, and create a complete digital sports ecosystem in one place. Users can discover and book sports venues, join training sessions, find teammates or opponents, manage match schedules, and explore various sports communities with ease.",
+    "slug": {
+      "_type": "slug",
+      "current": "athlix-sport-platform"
+    },
+    "tags": [
+      "Sports Platform",
+      "Sports Community",
+      "Venue Booking",
+      "Match Scheduling",
+      "Team Finder",
+      "Sports Marketplace",
+      "Fitness & Sports"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/f6a241a5889345a00062cc2cf3fef2098a8a9f57-1080x1350.png",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/b904cfadc3698ddd9d90e268262916bf69f36820-1080x1350.png",
+    "title": "Athlix Sport Platform",
+    "uploadedAt": "2026-05-23"
+  },
+  {
+    "_id": "9c5deca9-3de6-42a7-a133-695d2bf4432e",
+    "author": "Mahendra Arya",
+    "category": "Web App",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "This project is a digital library platform designed to enhance the member experience through a more modern, practical, and integrated library system. The platform allows members to check real-time availability of books and library rooms, making it easier to access information and plan visits more efficiently.\n\nThrough the system, members can borrow books digitally, monitor their borrowing status, and reserve library rooms for studying, discussions, or other activities. With a user-friendly interface and a seamless digital experience, the platform helps create a more organized, accessible, and convenient library environment for modern users.",
+    "slug": {
+      "_type": "slug",
+      "current": "perpusku-smart-library-platform"
+    },
+    "tags": [
+      "Booking System",
+      "Digital Library",
+      "Member Portal",
+      "Full Stack Development",
+      "Smart Library",
+      "Modern Web Platform"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/51ce6124541868332f481ea86707f2301ecbe2c6-1080x1350.png",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/13bf75dc3e60282228749198dfa9036e48f611d5-1080x1350.png",
+    "title": "Perpusku - Smart Library Platform",
+    "uploadedAt": "2026-05-12"
+  },
+  {
+    "_id": "86179b3e-cfac-4479-b02d-42999594bb96",
+    "author": [
+      {
+        "_key": "042e2fe13dcb",
+        "_type": "collaborator",
+        "instagram": "karyasite",
+        "name": "Mahendra Arya",
+        "role": "Web Developer"
+      }
+    ],
+    "category": "Website",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "A modern villa deserves a website with an elegant and luxurious design—not just for display, but to enhance credibility and reach more potential guests. Visit one of the villa websites we’ve created, “Luxury Surya Nitya.” This website is designed to deliver a premium feel, present information clearly, and provide the best possible experience for visitors from their very first impression.",
+    "slug": {
+      "_type": "slug",
+      "current": "luxury-surya-nitya"
+    },
+    "tags": [
+      "Luxury Private Villa",
+      "Villa Booking",
+      "Mobile Responsive",
+      "CTWA Reservation",
+      "Available For Production"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/f96d45b69a2f5baf60f9a121441d09a1e3598070-1080x1350.jpg",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/c35445d5c1a35b5a428f7844ae758c1331c116af-1080x1350.jpg",
+    "title": "Luxury Surya Nitya",
+    "uploadedAt": "2026-05-02"
+  },
+  {
+    "_id": "d5c009eb-63c2-4c85-9170-fcc1858c3d99",
+    "author": "Mahendra Arya",
+    "category": "Dashboard System",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "This Restaurant POS system provides a complete solution for managing restaurant operations through three main panels: Admin, Cashier, and Kitchen. It supports real-time order processing, menu management, voucher handling, and fast, accurate transaction recording. Orders placed by the cashier are instantly displayed on the Kitchen Display, while the admin can monitor sales reports, manage menus, and control user access. This system is designed to streamline workflows, minimize errors, and improve overall restaurant efficiency.",
+    "slug": {
+      "_type": "slug",
+      "current": "point-of-sale-restaurant"
+    },
+    "tags": [
+      "Laravel 12",
+      "Real-Time Order",
+      "CRUD",
+      "Food & Beverage System",
+      "Menu Management",
+      "Voucher System",
+      "Kitchen Display System (KDS)",
+      "Real-Time Order Processing",
+      "Transaction Management",
+      "Cashier Panel"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/237e4b456629def52172c95e67ea863ab49ae0bf-1080x1350.jpg",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/d1677afdc5d34bb8491961f5131a4bbe42cfad99-1080x1350.jpg",
+    "title": "Point Of Sale Restaurant",
+    "uploadedAt": "2026-05-02"
+  },
+  {
+    "_id": "80836e55-6444-4f2f-9e31-76282e4ebf3c",
+    "author": "3 Collabolator",
+    "category": "Dashboard System",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "DocLink is a powerful digital solution designed to elevate hospital performance by streamlining the management of patient–doctor appointments across Indonesia. With a comprehensive set of features, DocLink simplifies scheduling, improves coordination, and ensures that both patient and doctor management run efficiently and in an organized manner. The result is a smoother operational workflow and a higher standard of healthcare service delivery.",
+    "slug": {
+      "_type": "slug",
+      "current": "doclink-doctor-and-patient-appointment"
+    },
+    "tags": [
+      "Appointment Booking System",
+      "Patient Management",
+      "Doctor Management",
+      "Appointment Scheduling",
+      "Efficient Workflow",
+      "HealthTech"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/05a52c2be319b5af90febdc34c11e5e8aa3ec4b9-1920x844.jpg",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/cc6077be1d4a0ae63642fbba8ead9d01141439b2-1920x1301.jpg",
+    "title": "DocLink - Doctor & Patient Appointment",
+    "uploadedAt": "2026-05-01"
+  },
+  {
+    "_id": "897fd096-b2ea-417e-baa4-1cdaa7536990",
+    "author": "Mahendra Arya",
+    "category": "Dashboard System",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "A modern Library Management System built with Laravel 12 and Filament v3, designed to streamline and optimize library operations through a powerful multi-role architecture. This platform goes beyond basic management—offering a complete solution for handling book collections, memberships, borrowing and returns, fines, and even room reservations. With dedicated panels for Admin and Librarians, along with a user-friendly interface for Members, each role is equipped with the tools they need to work efficiently and seamlessly. Crafted for performance, clarity, and scalability, this system helps libraries deliver better service, reduce manual work, and create a more organized, modern experience for both staff and members.",
+    "slug": {
+      "_type": "slug",
+      "current": "perpusku-erp-library-management-system"
+    },
+    "tags": [
+      "Admin Panel",
+      "CRUD",
+      "LMS",
+      "Membership Management",
+      "Borrowing System",
+      "Librarian Dashboard",
+      "Member Portal",
+      "Role-Based Access Control",
+      "ERP"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/9524d241191b0f18fc1ecd569145c6987d813271-1080x1350.png",
+    "thumbnail2": "https://cdn.sanity.io/images/6rdtpnze/production/8f2da68073d841a0d966c0b246cbebcf59a584f0-1080x1350.png",
+    "title": "Perpusku - ERP Library Management System",
+    "uploadedAt": "2026-05-01"
+  },
+  {
+    "_id": "b5fb2b73-df88-4f6a-92cf-a1da3c51c922",
+    "author": "Mahendra Arya",
+    "category": "Web App",
+    "isFeatured": false,
+    "order": 0,
+    "overview": "Aurora Cinema is a modern web-based movie ticket booking platform designed to deliver a seamless and enjoyable user experience. From discovering the latest films to selecting showtimes and reserving seats digitally, every step is crafted to be intuitive, fast, and hassle-free—bringing the convenience of cinema booking right to your fingertips.",
+    "slug": {
+      "_type": "slug",
+      "current": "aurora-cinema-ticket-booking"
+    },
+    "tags": [
+      "Web-Based Ticketing",
+      "Online Reservation System",
+      "Digital Ticketing",
+      "Cinema Management",
+      "Entertainment Platform",
+      "Movie Listings"
+    ],
+    "thumbnail": "https://cdn.sanity.io/images/6rdtpnze/production/0bc23a55bd316068752a06ca1b938642822634af-1080x1350.jpg",
+    "thumbnail2": null,
+    "title": "Aurora Cinema - Ticket Booking",
+    "uploadedAt": "2026-05-01"
+  }
+]

@@ -1,0 +1,334 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi_Variable.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi_VariableItalic.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-satoshi: "Satoshi", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --primary: #5e2cd1;
+  --secondary: #5b8dff;
+  --background: #ffffff;
+  --foreground: #f7f7f7;
+  --card: #f5f6fe;
+  --text-primary: #0a0a0a;
+  --text-secondary: #707070;
+}
+
+@theme {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-satoshi: "Satoshi", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --color-primary: #5e2cd1;
+  --color-secondary: #5b8dff;
+  --color-background: #ffffff;
+  --color-foreground: #f7f7f7;
+  --color-card: #f5f6fe;
+  --color-text-primary: #0a0a0a;
+  --color-text-secondary: #707070;
+}
+
+html {
+  overflow-x: clip;
+  width: 100%;
+}
+
+*, *::before, *::after {
+  font-family: var(--font-satoshi);
+}
+
+/* Universal smooth color transition */
+a, button, input, textarea {
+  transition: color 0.2s ease-out, background-color 0.2s ease-out, border-color 0.2s ease-out;
+}
+
+.word {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-satoshi);
+  overflow-x: clip;
+  width: 100%;
+  max-width: 100vw;
+}
+
+#root {
+  overflow-x: clip;
+  max-width: 100vw;
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes float-delayed {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-16px) rotate(-2deg);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 5s ease-in-out 1s infinite;
+}
+
+.scroll-text {
+  height: 1.5rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-text span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: inherit;
+  height: 100%;
+  line-height: 1;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-text span:first-child {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.group:hover .scroll-text span:first-child {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.scroll-text span:last-child {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.group:hover .scroll-text span:last-child {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.btn-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-hover:before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 6rem;
+  width: 2rem;
+  transform: translateX(-3rem) rotate(-8deg);
+  background-color: rgba(255, 255, 255, 0.15);
+  position: absolute;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-hover:hover:before,
+.group:hover .btn-hover:before {
+  transform: translateX(14rem) rotate(-8deg);
+}
+
+/* Keyframes & Animations */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes carousel-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 12px));
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-y {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-y-reverse {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-x-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes radar-pulse {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+
+/* Animation Classes */
+.animate-marquee {
+  width: max-content;
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee-reverse {
+  width: max-content;
+  display: flex;
+  animation: marquee-reverse 30s linear infinite;
+}
+
+.animate-carousel {
+  width: max-content;
+  display: flex;
+  animation: carousel-scroll 40s linear infinite;
+}
+
+.animate-scroll-y,
+.animate-marquee-vertical {
+  animation: scroll-y 25s linear infinite;
+}
+
+.animate-scroll-y-reverse,
+.animate-marquee-vertical-reverse {
+  animation: scroll-y-reverse 25s linear infinite;
+}
+
+.animate-scroll-x {
+  animation: scroll-x 25s linear infinite;
+}
+
+.animate-scroll-x-reverse {
+  animation: scroll-x-reverse 25s linear infinite;
+}
+
+.animate-radar {
+  animation: radar-pulse 1.2s ease-out infinite;
+}
+
+.loading-bar {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-radius: 9999px;
+}
+
+/* Hover Pauses */
+.group:hover .animate-marquee,
+.group:hover .animate-marquee-reverse,
+.group:hover .animate-carousel,
+.group:hover .animate-scroll-y,
+.group:hover .animate-scroll-y-reverse,
+.group:hover .animate-scroll-x,
+.group:hover .animate-scroll-x-reverse,
+.animate-marquee:hover,
+.animate-marquee-reverse:hover,
+.animate-carousel:hover,
+.animate-scroll-y:hover,
+.animate-scroll-y-reverse:hover,
+.animate-scroll-x:hover,
+.animate-scroll-x-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Global Disable Animations State */
+html.disable-animations *,
+html.disable-animations *::before,
+html.disable-animations *::after {
+  animation-duration: 0.0001s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.0001s !important;
+  scroll-behavior: auto !important;
+}
+

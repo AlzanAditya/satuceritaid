@@ -1,0 +1,48 @@
+export const home = {
+  en: {
+    hero: {
+      badge: "Website under development",
+      titlePart1: "A Business",
+      titlePart2: "System",
+      titlePart3: "Built for Your",
+      titlePart4: "Business.",
+      description: "A modular business system built around your workflows, designed to adapt as your business grows and evolves.",
+      ctaPrimary: "Pre-Order Now",
+      ctaSecondary: "Explore Modules",
+    },
+    nav: {
+      home: "Home",
+      features: "Features",
+      solutions: "Solutions",
+      pricing: "Pricing",
+      testimonial: "Testimonial",
+      contact: "Contact",
+      overview: "Overview",
+      modules: "Modules",
+      preOrder: "Pre-Order",
+    },
+  },
+  id: {
+    hero: {
+      badge: "website dalam pengembangan",
+      titlePart1: "Sistem Bisnis",
+      titlePart2: "Modular",
+      titlePart3: "Dibangun Sesuai",
+      titlePart4: "Bisnis Anda.",
+      description: "Sistem bisnis modular yang dibangun mengikuti alur kerja Anda, dirancang untuk beradaptasi seiring pertumbuhan dan perkembangan bisnis Anda.",
+      ctaPrimary: "Pre-Order Sekarang",
+      ctaSecondary: "Jelajahi Modul",
+    },
+    nav: {
+      home: "Beranda",
+      features: "Fitur",
+      solutions: "Solusi",
+      pricing: "Harga",
+      testimonial: "Testimoni",
+      contact: "Kontak",
+      overview: "Ringkasan",
+      modules: "Modul",
+      preOrder: "Pre-Order",
+    },
+  },
+};
