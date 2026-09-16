@@ -4,7 +4,7 @@ import { RegisterForm } from '../features/auth/RegisterForm';
 
 export function RegisterPage() {
   useEffect(() => {
-    document.title = 'Daftar Akun Baru Gratis - One Moment Undangan Digital';
+    document.title = 'Daftar Akun Baru Gratis - Satu Cerita Undangan Digital';
   }, []);
 
   return (

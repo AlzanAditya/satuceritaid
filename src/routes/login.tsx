@@ -4,7 +4,7 @@ import { LoginForm } from '../features/auth/LoginForm';
 
 export function LoginPage() {
   useEffect(() => {
-    document.title = 'Masuk ke Akun - One Moment Undangan Digital';
+    document.title = 'Masuk ke Akun - Satu Cerita Undangan Digital';
   }, []);
 
   return (

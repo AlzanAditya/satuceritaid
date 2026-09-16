@@ -41,7 +41,7 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
           onSuccess();
         } else {
           // Success feedback
-          alert('Berhasil Masuk! Selamat datang kembali di One Moment.');
+          alert('Berhasil Masuk! Selamat datang kembali di Satu Cerita.');
           navigate({ to: '/' });
         }
       }
@@ -61,10 +61,8 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
     <div className="auth-card">
       {/* Brand Header */}
       <Link to="/" className="auth-brand">
-        <div className="auth-brand-icon">
-          <i className="fa-solid fa-rotate"></i>
-        </div>
-        One Moment
+        <img src="/logo.jpg" alt="Satu Cerita Logo" className="w-10 h-10 rounded-xl object-cover shadow-sm shrink-0" />
+        <span>Satu Cerita</span>
       </Link>
 
       <div className="text-center">
@@ -223,7 +221,7 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
 
       {/* Footer Switch */}
       <p className="mt-8 text-center text-xs text-gray-500">
-        Belum memiliki akun One Moment?{' '}
+        Belum memiliki akun Satu Cerita?{' '}
         <Link to="/register" className="font-bold text-[#00A896] hover:underline">
           Daftar Gratis
         </Link>

@@ -10,7 +10,7 @@ export function FAQPage() {
         tagIcon="fa-circle-question"
         tagText="Bantuan"
         title="Pertanyaan Umum (FAQ)"
-        description="Temukan jawaban lengkap atas pertanyaan yang sering diajukan seputar pembuatan undangan digital di One Moment."
+        description="Temukan jawaban lengkap atas pertanyaan yang sering diajukan seputar pembuatan undangan digital di Satu Cerita."
       />
 
       <Breadcrumb items={[{ label: 'FAQ' }]} />

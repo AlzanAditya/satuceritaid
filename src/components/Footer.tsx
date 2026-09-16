@@ -7,11 +7,9 @@ export function Footer() {
       <div className="container max-w-7xl mx-auto px-6">
         <div className="footer-grid">
           <div className="footer-col">
-            <div className="footer-brand-name">
-              <div className="nav-brand-icon">
-                <i className="fa-solid fa-rotate"></i>
-              </div>
-              One Moment
+            <div className="footer-brand-name flex items-center gap-3">
+              <img src="/logo.jpg" alt="Satu Cerita Logo" className="w-10 h-10 rounded-xl object-cover shadow-sm shrink-0" />
+              <span>Satu Cerita</span>
             </div>
             <p className="footer-brand-desc">
               Platform undangan digital terbaik di Indonesia. Buat undangan cantik dalam hitungan menit, langsung dari smartphone kamu.
@@ -90,7 +88,7 @@ export function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p className="footer-copy">&copy; 2025 One Moment. Seluruh hak cipta dilindungi.</p>
+          <p className="footer-copy">&copy; 2025 Satu Cerita. Seluruh hak cipta dilindungi.</p>
           <div className="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

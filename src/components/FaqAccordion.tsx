@@ -34,7 +34,7 @@ const DEFAULT_FAQS: FaqItem[] = [
 export function FaqAccordion({
   tag = 'FAQ',
   title = 'Pertanyaan Sering Diajukan',
-  description = 'Temukan jawaban cepat untuk pertanyaan seputar platform undangan digital One Moment.',
+  description = 'Temukan jawaban cepat untuk pertanyaan seputar platform undangan digital Satu Cerita.',
   faqs = DEFAULT_FAQS,
 }: FaqAccordionProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);

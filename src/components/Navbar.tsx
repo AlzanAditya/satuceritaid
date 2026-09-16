@@ -11,13 +11,11 @@ export function Navbar({ scrolled, onOpenDrawer }: NavbarProps) {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} id="navbar">
-      <div className="container max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
+      <div className="navbar-container">
         {/* Brand */}
         <Link to="/" className="nav-brand">
-          <div className="nav-brand-icon">
-            <i className="fa-solid fa-rotate"></i>
-          </div>
-          One Moment
+          <img src="/logo.jpg" alt="Satu Cerita Logo" className="nav-brand-logo" />
+          <span className="nav-brand-text">Satu Cerita</span>
         </Link>
 
         {/* Desktop Menu */}
@@ -88,16 +86,16 @@ export function Navbar({ scrolled, onOpenDrawer }: NavbarProps) {
           </li>
         </ul>
 
-        {/* Actions */}
-        <div className="nav-actions">
-          <Link to="/login" className="btn-login">Log In</Link>
-          <Link to="/register" className="btn btn-primary btn-register">Daftar Gratis</Link>
+        {/* Actions & Hamburger */}
+        <div className="nav-actions-group">
+          <div className="nav-actions">
+            <Link to="/login" className="btn-login">Log In</Link>
+            <Link to="/register" className="btn-register">Daftar Gratis</Link>
+          </div>
+          <button className="nav-hamburger" aria-label="Buka Menu" onClick={onOpenDrawer}>
+            <i className="fa-solid fa-bars"></i>
+          </button>
         </div>
-
-        {/* Hamburger (mobile) */}
-        <button className="nav-hamburger" aria-label="Buka Menu" onClick={onOpenDrawer}>
-          <i className="fa-solid fa-bars"></i>
-        </button>
       </div>
     </nav>
   );

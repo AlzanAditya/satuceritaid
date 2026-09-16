@@ -1,5 +1,7 @@
 /* ==================== RESPONSIVE MEDIA QUERIES ==================== */
 @media (max-width: 1024px) {
+    .nav-menu { display: none !important; }
+    .nav-hamburger { display: flex !important; }
     .hero-title { font-size: var(--fs-4xl); }
     .products-grid, .features-grid, .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
     .themes-grid { grid-template-columns: repeat(3, 1fr); }
@@ -7,8 +9,6 @@
 }
 
 @media (max-width: 768px) {
-    .nav-menu, .nav-actions { display: none; }
-    .nav-hamburger { display: flex; }
     .bottom-nav { display: flex; }
     body { padding-bottom: var(--bottom-nav-height); }
     .hero { padding-top: calc(var(--nav-height) + var(--space-10)); padding-bottom: var(--space-16); min-height: auto; }
@@ -19,4 +19,8 @@
     .how-visual { display: none; }
     .page-header .container { grid-template-columns: 1fr; }
     .page-header-visual { display: none; }
+}
+
+@media (max-width: 640px) {
+    .nav-actions { display: none !important; }
 }

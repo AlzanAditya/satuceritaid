@@ -68,10 +68,8 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
     <div className="auth-card">
       {/* Brand Header */}
       <Link to="/" className="auth-brand">
-        <div className="auth-brand-icon">
-          <i className="fa-solid fa-rotate"></i>
-        </div>
-        One Moment
+        <img src="/logo.jpg" alt="Satu Cerita Logo" className="w-10 h-10 rounded-xl object-cover shadow-sm shrink-0" />
+        <span>Satu Cerita</span>
       </Link>
 
       <div className="text-center">
@@ -202,7 +200,7 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
               className="w-4 h-4 mt-0.5 rounded text-[#00A896] focus:ring-[#00A896] border-gray-300"
             />
             <span>
-              Saya menyetujui <Link to="/faq" className="text-[#00A896] underline font-medium">Syarat &amp; Ketentuan</Link> serta Ketentuan Privasi One Moment.
+              Saya menyetujui <Link to="/faq" className="text-[#00A896] underline font-medium">Syarat &amp; Ketentuan</Link> serta Ketentuan Privasi Satu Cerita.
             </span>
           </label>
         </div>

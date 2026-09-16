@@ -1,35 +1,103 @@
 /* ==================== NAVBAR ==================== */
 .navbar {
-  @apply fixed top-0 left-0 right-0 bg-white shadow-sm z-[1000] transition-shadow duration-200;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   height: var(--nav-height);
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+  transition: box-shadow 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .navbar {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar {
+    padding: 0 3.5rem;
+  }
 }
 
 .navbar.scrolled {
-  @apply shadow-md;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  box-sizing: border-box;
 }
 
 .nav-brand {
-  @apply flex items-center gap-3 font-bold text-lg;
-  font-family: var(--font-primary);
-  color: var(--dark);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 
-.nav-brand-icon {
-  @apply w-10 h-10 rounded-xl flex items-center justify-center text-white text-xl;
-  background: var(--primary);
+.nav-brand-logo {
+  width: 2.375rem;
+  height: 2.375rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.nav-brand-text {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--dark);
+  white-space: nowrap;
 }
 
 .nav-menu {
-  @apply flex items-center gap-1;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-item {
-  @apply relative;
+  position: relative;
 }
 
 .nav-link {
-  @apply flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-lg transition-all duration-150 cursor-pointer border border-transparent;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
   color: var(--dark);
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -43,45 +111,82 @@
 }
 
 .nav-link .chevron {
-  @apply text-xs transition-transform duration-200;
+  font-size: 0.65rem;
+  transition: transform 0.2s ease;
 }
 
 .nav-item:hover > .nav-link .chevron,
 .nav-item.open > .nav-link .chevron {
-  @apply rotate-180;
+  transform: rotate(180deg);
 }
 
 .dropdown {
-  @apply absolute left-0 min-w-[260px] bg-white rounded-2xl shadow-xl p-3 opacity-0 invisible -translate-y-2 transition-all duration-200 border border-gray-200;
+  position: absolute;
   top: calc(100% + 8px);
+  left: 0;
+  min-width: 240px;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 16px 36px -4px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  padding: 0.75rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all 0.2s ease;
+  border: 1px solid #e5e7eb;
 }
 
 .dropdown.with-image {
-  @apply min-w-[540px] flex gap-4 p-4;
+  min-width: 500px;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .dropdown-image {
-  @apply w-52 shrink-0 rounded-xl overflow-hidden bg-gray-100;
+  width: 12rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: #f3f4f6;
 }
 
 .dropdown-image-placeholder {
-  @apply w-full h-50 flex items-center justify-center text-5xl;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.75rem;
   background: linear-gradient(135deg, var(--primary-light) 0%, var(--gray-100) 100%);
   color: var(--primary);
 }
 
 .dropdown-links {
-  @apply flex-1 flex flex-col gap-2;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
 }
 
 .nav-item:hover > .dropdown,
 .nav-item.open > .dropdown {
-  @apply opacity-100 visible translate-y-0;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .dropdown-item {
-  @apply flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all duration-150;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
   color: var(--dark);
+  transition: all 0.15s ease;
+  text-decoration: none;
 }
 
 .dropdown-item:hover {
@@ -90,25 +195,95 @@
 }
 
 .dropdown-item i {
-  @apply text-base w-5 text-center;
+  font-size: 0.95rem;
+  width: 1.25rem;
+  text-align: center;
   color: var(--primary);
 }
 
 .dropdown-item .arrow {
-  @apply ml-auto text-xs text-gray-400 transition-transform duration-150;
+  margin-left: auto;
+  font-size: 0.65rem;
+  color: #9ca3af;
+  transition: transform 0.15s ease;
 }
 
 .dropdown-item:hover .arrow {
-  @apply translate-x-1;
+  transform: translateX(4px);
   color: var(--primary);
 }
 
+.nav-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
 .nav-actions {
-  @apply flex items-center gap-3;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+}
+
+.btn-login {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4b5563;
+  border-radius: 9999px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  color: var(--primary);
+  background-color: #f3f4f6;
+}
+
+.btn-register {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.475rem 1.15rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--primary);
+  border-radius: 9999px;
+  box-shadow: 0 2px 8px rgba(0, 168, 150, 0.28);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn-register:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 168, 150, 0.38);
 }
 
 .nav-hamburger {
-  @apply hidden items-center justify-center w-10 h-10 rounded-lg text-xl transition-colors duration-150 hover:bg-gray-100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
   color: var(--dark);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.nav-hamburger:hover {
+  background-color: #f3f4f6;
 }
 

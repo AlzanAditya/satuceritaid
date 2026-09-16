@@ -16,7 +16,7 @@ export function BlogPage() {
         tagIcon="fa-newspaper"
         tagText="Blog"
         title="Artikel &amp; Inspirasi Undangan"
-        description="Kumpulan tips, panduan pernikahan, dan tren seputar undangan digital terbaru dari One Moment."
+        description="Kumpulan tips, panduan pernikahan, dan tren seputar undangan digital terbaru dari Satu Cerita."
       />
 
       <Breadcrumb items={[{ label: 'Blog' }]} />

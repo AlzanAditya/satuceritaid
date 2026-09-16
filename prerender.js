@@ -6,18 +6,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const routesToPrerender = [
-  { path: '/', title: 'One Moment – Platform Undangan Digital Website #1 Indonesia', desc: 'Buat undangan online digital website custom dengan One Moment. Selesai dalam hitungan menit.' },
-  { path: '/pricing', title: 'Harga & Paket – One Moment', desc: 'Paket harga undangan digital One Moment. Mulai dari gratis hingga premium.' },
-  { path: '/harga', title: 'Harga & Paket – One Moment', desc: 'Paket harga undangan digital One Moment. Mulai dari gratis hingga premium.' },
-  { path: '/themes', title: 'Tema Undangan Digital – One Moment', desc: 'Koleksi 500+ tema undangan digital yang bisa di-custom sesuai keinginan.' },
-  { path: '/tema', title: 'Tema Undangan Digital – One Moment', desc: 'Koleksi 500+ tema undangan digital yang bisa di-custom sesuai keinginan.' },
-  { path: '/how-to-create', title: 'Cara Membuat Undangan Digital – One Moment', desc: 'Panduan lengkap cara membuat undangan website digital interaktif.' },
-  { path: '/website', title: 'Undangan Website Digital – One Moment', desc: 'Undangan website digital interaktif & elegan.' },
-  { path: '/about', title: 'Tentang Kami – One Moment', desc: 'Platform undangan digital terdepan di Indonesia.' },
-  { path: '/faq', title: 'FAQ – One Moment', desc: 'Pertanyaan umum seputar pembuatan undangan digital.' },
-  { path: '/blog', title: 'Blog & Tips Undangan – One Moment', desc: 'Artikel, tips, dan inspirasi pernikahan & acara.' },
-  { path: '/video', title: 'Undangan Video 3D – One Moment', desc: 'Undangan video animasi 3D sinematik.' },
-  { path: '/cetak', title: 'Undangan Cetak Premium – One Moment', desc: 'Undangan cetak kertas fisik berkualitas tinggi.' },
+  { path: '/', title: 'Satu Cerita – Platform Undangan Digital Website #1 Indonesia', desc: 'Buat undangan online digital website custom dengan Satu Cerita. Selesai dalam hitungan menit.' },
+  { path: '/pricing', title: 'Harga & Paket – Satu Cerita', desc: 'Paket harga undangan digital Satu Cerita. Mulai dari gratis hingga premium.' },
+  { path: '/harga', title: 'Harga & Paket – Satu Cerita', desc: 'Paket harga undangan digital Satu Cerita. Mulai dari gratis hingga premium.' },
+  { path: '/themes', title: 'Tema Undangan Digital – Satu Cerita', desc: 'Koleksi 500+ tema undangan digital yang bisa di-custom sesuai keinginan.' },
+  { path: '/tema', title: 'Tema Undangan Digital – Satu Cerita', desc: 'Koleksi 500+ tema undangan digital yang bisa di-custom sesuai keinginan.' },
+  { path: '/how-to-create', title: 'Cara Membuat Undangan Digital – Satu Cerita', desc: 'Panduan lengkap cara membuat undangan website digital interaktif.' },
+  { path: '/website', title: 'Undangan Website Digital – Satu Cerita', desc: 'Undangan website digital interaktif & elegan.' },
+  { path: '/about', title: 'Tentang Kami – Satu Cerita', desc: 'Platform undangan digital terdepan di Indonesia.' },
+  { path: '/faq', title: 'FAQ – Satu Cerita', desc: 'Pertanyaan umum seputar pembuatan undangan digital.' },
+  { path: '/blog', title: 'Blog & Tips Undangan – Satu Cerita', desc: 'Artikel, tips, dan inspirasi pernikahan & acara.' },
+  { path: '/video', title: 'Undangan Video 3D – Satu Cerita', desc: 'Undangan video animasi 3D sinematik.' },
+  { path: '/cetak', title: 'Undangan Cetak Premium – Satu Cerita', desc: 'Undangan cetak kertas fisik berkualitas tinggi.' },
 ];
 
 const distDir = path.resolve(__dirname, 'dist');

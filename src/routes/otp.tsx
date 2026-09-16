@@ -4,7 +4,7 @@ import { OtpForm } from '../features/auth/OtpForm';
 
 export function OtpPage() {
   useEffect(() => {
-    document.title = 'Verifikasi Kode OTP - One Moment Undangan Digital';
+    document.title = 'Verifikasi Kode OTP - Satu Cerita Undangan Digital';
   }, []);
 
   return (

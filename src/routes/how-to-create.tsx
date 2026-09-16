@@ -8,7 +8,7 @@ export function HowToCreatePage() {
     {
       num: 1,
       title: 'Daftar Akun Gratis',
-      desc: 'Buat akun One Moment dalam hitungan detik menggunakan akun Google atau email kamu tanpa biaya.',
+      desc: 'Buat akun Satu Cerita dalam hitungan detik menggunakan akun Google atau email kamu tanpa biaya.',
       icon: 'fa-user-plus',
     },
     {

@@ -18,11 +18,9 @@ export function MobileDrawer({ isOpen, onClose }: MobileDrawerProps) {
       <div className="drawer-overlay" onClick={onClose}></div>
       <div className="drawer-panel">
         <div className="drawer-header">
-          <div className="drawer-brand">
-            <div className="nav-brand-icon">
-              <i className="fa-solid fa-rotate"></i>
-            </div>
-            One Moment
+          <div className="drawer-brand flex items-center gap-3">
+            <img src="/logo.jpg" alt="Satu Cerita Logo" className="w-10 h-10 rounded-xl object-cover shadow-sm shrink-0" />
+            <span>Satu Cerita</span>
           </div>
           <button className="drawer-close" aria-label="Tutup Menu" onClick={onClose}>
             <i className="fa-solid fa-xmark"></i>

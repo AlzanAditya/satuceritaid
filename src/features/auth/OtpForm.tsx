@@ -116,10 +116,8 @@ export function OtpForm({ phoneNumber: initialPhone, onVerifySuccess }: OtpFormP
     <div className="auth-card">
       {/* Brand Header */}
       <Link to="/" className="auth-brand">
-        <div className="auth-brand-icon">
-          <i className="fa-solid fa-rotate"></i>
-        </div>
-        One Moment
+        <img src="/logo.jpg" alt="Satu Cerita Logo" className="w-10 h-10 rounded-xl object-cover shadow-sm shrink-0" />
+        <span>Satu Cerita</span>
       </Link>
 
       <div className="text-center">

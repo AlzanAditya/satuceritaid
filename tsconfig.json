@@ -23,5 +23,12 @@
     "allowImportingTsExtensions": true,
     "strictNullChecks": true,
     "noEmit": true
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "reference.3"
+  ]
 }

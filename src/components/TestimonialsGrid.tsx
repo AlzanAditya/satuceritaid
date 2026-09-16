@@ -25,7 +25,7 @@ const DEFAULT_TESTIMONIALS: TestimonialItem[] = [
   },
   {
     rating: 5,
-    text: '"Pesan undangan video 3D pengerjaannya cepat banget, hasilnya HD dan musiknya pas banget sama konsep nikahan kami. Sukses terus One Moment!"',
+    text: '"Pesan undangan video 3D pengerjaannya cepat banget, hasilnya HD dan musiknya pas banget sama konsep nikahan kami. Sukses terus Satu Cerita!"',
     name: 'Dina & Syafiq',
     role: 'Pernikahan di Bandung',
     initials: 'DS',
@@ -42,7 +42,7 @@ const DEFAULT_TESTIMONIALS: TestimonialItem[] = [
 export function TestimonialsGrid({
   tag = 'Testimoni',
   title = 'Apa Kata Mereka?',
-  description = 'Ribuan pasangan telah mempercayakan momen bahagianya bersama One Moment.',
+  description = 'Ribuan pasangan telah mempercayakan momen bahagianya bersama Satu Cerita.',
   testimonials = DEFAULT_TESTIMONIALS,
 }: TestimonialsGridProps) {
   return (

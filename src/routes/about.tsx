@@ -8,7 +8,7 @@ export function AboutPage() {
       <PageHeader
         tagIcon="fa-users"
         tagText="Perusahaan"
-        title="Tentang One Moment"
+        title="Tentang Satu Cerita"
         description="Platform undangan digital terdepan di Indonesia yang berkomitmen menghadirkan pengalaman berbagi kebahagiaan yang modern, efisien, dan berkesan."
       >
         <div className="page-header-img-card tall">
